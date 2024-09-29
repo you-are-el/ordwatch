@@ -1,6 +1,6 @@
 # OrdWatch <img src="logo.svg" alt="OrdWatch Logo" height="20">
 
-**OrdWatch** is a simple Telegram notification service that tracks Bitcoin addresses for new transactions in the mempool. It's designed to connect to your own Bitcoin node via your local mempool.space API or the public Mempool API to send notifications when new transactions appear or get confirmed.
+**OrdWatch** is a simple Telegram notification service that tracks Bitcoin addresses for new transactions in the mempool. It's designed to connect to your own Bitcoin node via your local Mempool API or the public Mempool API to send notifications when new transactions appear or get confirmed.
 
 ## Features
 - Track multiple Bitcoin addresses.
