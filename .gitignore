@@ -15,6 +15,3 @@ docker-compose.override.yml
 
 # Ignore macOS automatically generated file for folder metadata
 .DS_Store
-
-# Ignore the mempool_transactions.json file to avoid pushing filled data
-mempool_transactions.json
