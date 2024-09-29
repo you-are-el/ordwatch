@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ordwatch:
+    container_name: ordwatch
+    build:
+      context: .            # Path to your Dockerfile, usually the root folder
+      dockerfile: Dockerfile # This specifies the Dockerfile to use
+    env_file:
+      - .env                 # Load environment variables from the .env file
+    volumes:
+      - ./mempool_transactions.json:/app/mempool_transactions.json
+    restart: unless-stopped
