@@ -1,0 +1,4 @@
+# cronjob
+
+# Run the ordwatch.py script every minute (for testing purposes)
+*/1 * * * * /usr/local/bin/python /app/ordwatch.py > /proc/1/fd/1 2>/proc/1/fd/2

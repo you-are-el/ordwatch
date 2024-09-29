@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 278 119.6">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient-2);
+        stroke-dasharray: .5 12.6;
+      }
+
+      .cls-6 {
+        fill: #2f50d0;
+      }
+
+      .cls-7 {
+        fill: #d26933;
+      }
+
+      .cls-3 {
+        stroke: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="111.1" y1="838.3" x2="166" y2="838.3" gradientTransform="translate(0 -779)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e15735"/>
+      <stop offset="1" stop-color="#9839dd"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="111.1" y1="831.9" x2="166" y2="831.9" gradientTransform="translate(0 -779)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e15735"/>
+      <stop offset="1" stop-color="#9839dd"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="111.1" y1="838.3" x2="166" y2="838.3" gradientTransform="translate(0 -779)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e15735"/>
+      <stop offset="1" stop-color="#9839dd"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="23.5" y1="839.3" x2="119.5" y2="839.3" gradientTransform="translate(0 -779)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d26933"/>
+      <stop offset="1" stop-color="#e15635"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="157.5" y1="839.3" x2="253.5" y2="839.3" gradientTransform="translate(0 -779)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9939dd"/>
+      <stop offset="1" stop-color="#2f50d0"/>
+    </linearGradient>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Layer_1">
+      <g id="Layer_2">
+        <line class="cls-1" x1="114.6" y1="59.3" x2="114.8" y2="59.2"/>
+        <path class="cls-2" d="M125.6,52.8c9.9-4.3,21.8-3.5,30.8,2.5l.6.4"/>
+        <line class="cls-3" x1="162.3" y1="59.2" x2="162.5" y2="59.3"/>
+        <path class="cls-7" d="M12.6,46.5h0c.5-2,2.6-3.2,4.6-2.6l10.5,2.8c2,.5,3.2,2.6,2.7,4.6h0c-.5,2-2.6,3.2-4.6,2.6l-10.5-2.8c-2-.5-3.2-2.6-2.7-4.6Z"/>
+        <path class="cls-6" d="M249.4,46.4l10.5-2.7c2-.5,4.1.7,4.6,2.7h0c.5,2-.7,4.1-2.7,4.6l-10.5,2.7c-2,.5-4.1-.7-4.6-2.7h0c-.5-2,.7-4.1,2.7-4.6Z"/>
+        <circle class="cls-5" cx="71.5" cy="60.3" r="48"/>
+        <circle class="cls-4" cx="205.5" cy="60.3" r="48"/>
+      </g>
+    </g>
+  </g>
+</svg>
