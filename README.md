@@ -91,23 +91,31 @@ If you want to control how often OrdWatch checks for new transactions, you'll ne
 
 ### Step 6: Build and Run the Docker Container
 
-#### Building the Docker Image
+#### Using Docker Compose
 
-After editing the `cronjob` file, build the Docker image:
+We have already provided the `docker-compose.yml` file in the repository for easier setup and management.
 
-```bash
-docker build -t ordwatch .
+1. First, ensure your `.env` file is correctly configured as described in **Step 4**.
+
+2. Use Docker Compose to build and run the container:
+
+```bash  
+docker compose up --build
 ```
 
-#### Running the Docker Container
+This will automatically build the image (if it’s not already built), load the environment variables from the `.env` file, and run the OrdWatch service.
 
-Once the image is built, you can run the container:
+You can check the logs with:
 
-```bash
-docker run -d --env-file .env ordwatch
+```bash   
+docker compose logs -f
 ```
 
-This will start the service and begin monitoring your Bitcoin addresses.
+To stop the container, use:
+
+```bash   
+docker compose down
+```
 
 ---
 
