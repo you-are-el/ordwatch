@@ -127,7 +127,10 @@ This will start the service and begin monitoring your Bitcoin addresses.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License with an additional non-commercial clause. You may use, modify, and distribute this software for personal use. However, commercial use is not permitted without the express permission of the copyright holder.
+
+For more details, see the [LICENSE](./LICENSE) file.
+
 
 ---
 
