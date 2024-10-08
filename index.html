@@ -24,7 +24,7 @@
     <main>
         <div class="content">
             <h2>Welcome to OrdWatch</h2>
-            <p>OrdWatch is a simple Telegram notification service that tracks Bitcoin addresses for new transactions in the mempool. It's designed to connect to your own Bitcoin node via your local Mempool API or the public Mempool API to send notifications when new transactions appear or get confirmed.</p>
+            <p>OrdWatch is a simple Telegram notification service that tracks Bitcoin addresses for new transactions in the mempool. It's designed to connect to the public Mempool API or your own Bitcoin node (coming soon) to send notifications when new transactions appear or get confirmed.</p>
 
             <h3>Features</h3>
             <ul>
@@ -32,11 +32,21 @@
                 <li>Get notifications for unconfirmed and confirmed transactions via Telegram.</li>
                 <li>Connect to your own Bitcoin node or use the public Mempool API.</li>
                 <li>Customizable cron job frequency for transaction checks.</li>
+                <li>Posts links to incoming transactions via <a href="https://mempool.space" target="_blank">Mempool.space</a> and detailed information about ordinals, runes, or BRC-20 via <a href="https://ordiscan.com" target="_blank">Ordiscan.io</a>.</li>
             </ul>
+
+            <h3>How to Run OrdWatch</h3>
+            <p>This first version of OrdWatch runs inside a Docker container, which you have to run on your own machine or server. This version is self-hosted and requires you to have Docker installed. Once you have Docker set up, you can pull the OrdWatch repository, build the container and run it to track your Bitcoin addresses for new transactions.</p>
+
+            <p>For detailed instructions please checkout <a href="https://github.com/you-are-el/ordwatch" target="_blank">GitHub</a>.</p>
 
             <h3>Screenshot Example</h3>
             <p>Here's how it looks when the Telegram bot notifies you of a new transaction:</p>
             <img src="assets/notification.jpg" alt="Telegram Notification Example" class="screenshot">
+
+            <h3>Telegram Bot Interface</h3>
+            <p>Here's how the OrdWatch bot appears inside Telegram:</p>
+            <img src="assets/screenshot.PNG" alt="Telegram Bot Interface" class="screenshot">
 
             <h3>Questions and Feedback</h3>
             <p>If you have any questions or feedback, feel free to contact me on <a href="https://x.com/you_are_el" target="_blank">X</a>. You're welcome to DM me for any clarifications or suggestions regarding OrdWatch.</p>
